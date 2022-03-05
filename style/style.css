@@ -1,0 +1,102 @@
+body{
+	margin:10px;
+	font-family:NewRoman;
+	color:white;
+	background:blue;	
+	line-height:1.5;
+}
+
+@media(min-width:768px){
+#header, #main{
+	display:flex;
+	justify-content:space-between;
+}
+}
+#header{
+	background:blue;
+	font-size:200%;
+}
+#main{
+	min-height:600px;
+	background:blue;
+	font-size:150%;
+}
+@media(min-width:768px){
+#header1{
+	flex:2;	
+	text-align:center;	
+	justify-content:space-between;
+}
+}
+@media(min-width:768px){
+.link{
+	flex:3;
+	text-align:center;
+	justify-content:space-between;
+}
+}
+@media(min-width:768px){
+#header2{
+	display:flex;
+	flex:10;	
+	align-items:center;
+	justify-content:space-between;
+}
+}
+@media(min-width:768px){
+#sidebar{
+	flex:1;
+	padding:5%;
+	justify-content:space-between;
+}
+}
+@media(min-width:768px){
+#content{
+	flex:8;
+	padding:5%;
+	justify-content:space-between;
+}
+}
+a{
+	color:white;
+}
+
+.first{
+	color:white;
+	font-family:Roman;
+
+}
+ul{
+	color:DarkSeaGreen;
+	font-family:Roman;
+}
+ol{
+	color:brown;
+	font-family:Roman
+}
+h1{
+	color: white;
+	font-family: Helvetica;
+	font-size: 150%;
+	text-shadow:1px 1px blue;
+}
+h2{
+	color: red;
+	font-family: ButtonFace;
+	font-size: 150%;
+	text-shadow:1px 1px red;
+}
+h3{
+	color:green;
+	font-family: ButtonShadow 
+	font-size:150%
+	text-shadow:1px 1px green;
+}
+li {
+	color:yellow;
+	font-family:Roman
+}
+p{
+	color:white;
+	font-family:Roman
+}
